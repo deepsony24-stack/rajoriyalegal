@@ -1,74 +1,140 @@
-body{
-background:#07111f;
-color:white;
-font-family:Arial,sans-serif;
+*{
 margin:0;
 padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#050b16;
+color:#ffffff;
+line-height:1.6;
 }
 
 header{
 text-align:center;
-padding:40px;
-background:#0b1728;
-border-bottom:2px solid gold;
+padding:35px 15px;
+background:#071426;
+border-bottom:2px solid #d4af37;
 }
 
 header h1{
-margin:0;
-color:gold;
-font-size:40px;
+font-size:36px;
+color:#d4af37;
 }
 
 header p{
-font-size:20px;
+font-size:18px;
+color:#ffffff;
 }
 
 .hero{
 text-align:center;
-padding:60px 20px;
+padding:70px 20px;
+background:linear-gradient(135deg,#071426,#0d1f3a);
 }
 
 .hero h2{
-color:gold;
+font-size:34px;
+color:#d4af37;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:19px;
+max-width:850px;
+margin:0 auto 25px;
 }
 
 .btn{
 display:inline-block;
-padding:12px 25px;
-background:gold;
-color:black;
+background:#d4af37;
+color:#071426;
+padding:13px 26px;
+border-radius:30px;
 text-decoration:none;
 font-weight:bold;
-border-radius:8px;
-margin-top:20px;
+margin-top:10px;
 }
 
 section{
-padding:40px 20px;
-max-width:1000px;
+max-width:1100px;
 margin:auto;
+padding:45px 20px;
+}
+
+section h2{
+text-align:center;
+font-size:32px;
+color:#d4af37;
+margin-bottom:30px;
 }
 
 .card{
-background:#0d1c30;
-padding:20px;
-margin:15px 0;
-border-left:4px solid gold;
-border-radius:10px;
+background:#0b1b31;
+border:1px solid rgba(212,175,55,0.35);
+border-left:5px solid #d4af37;
+border-radius:14px;
+padding:22px;
+margin-bottom:18px;
+box-shadow:0 8px 20px rgba(0,0,0,0.25);
 }
 
 .card h3{
-color:gold;
-margin-top:0;
+color:#d4af37;
+margin-bottom:8px;
+font-size:22px;
+}
+
+.card p{
+color:#e8e8e8;
+font-size:16px;
 }
 
 .contact{
 text-align:center;
+background:#071426;
+border-top:1px solid rgba(212,175,55,0.3);
+border-bottom:1px solid rgba(212,175,55,0.3);
+}
+
+.contact p{
+font-size:18px;
+margin-bottom:8px;
 }
 
 footer{
+background:#030812;
 text-align:center;
-padding:20px;
-background:#0b1728;
-border-top:2px solid gold;
+padding:25px 15px;
+font-size:14px;
+color:#dcdcdc;
+border-top:2px solid #d4af37;
+}
+
+footer p{
+max-width:900px;
+margin:8px auto;
+}
+
+@media(max-width:600px){
+header h1{
+font-size:29px;
+}
+
+.hero h2{
+font-size:28px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+section h2{
+font-size:27px;
+}
+
+.card h3{
+font-size:20px;
+}
 }
