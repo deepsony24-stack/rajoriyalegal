@@ -655,3 +655,9 @@ html{
 .founder-card h3{
     color:#d4a017;
 }
+@media(max-width:768px){
+  .about img{
+    width:200px !important;
+    height:auto;
+  }
+}
