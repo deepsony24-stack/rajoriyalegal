@@ -189,7 +189,54 @@ Get Report
      Book Consultation Now
   </a>
 </section>
+<section id="booking" class="booking-section">
+  <div class="container">
 
+    <h2>Schedule Your Legal Consultation</h2>
+    <p>Fill your details and book your consultation.</p>
+
+    <div class="booking-form">
+
+      <label>Consultation Type</label>
+      <select id="consultationType">
+        <option value="Legal Consultation ₹999">Legal Consultation ₹999</option>
+        <option value="Legal Consultation + Report ₹2499">Legal Consultation + Report ₹2499</option>
+      </select>
+
+      <label>Full Name</label>
+      <input type="text" id="clientName" placeholder="Your Full Name">
+
+      <label>Phone Number</label>
+      <input type="tel" id="clientPhone" placeholder="Your Mobile Number">
+
+      <label>Case Type</label>
+      <select id="caseType">
+        <option>Property Matter</option>
+        <option>Family Matter</option>
+        <option>Criminal Matter</option>
+        <option>Consumer Complaint</option>
+        <option>Cheque Bounce</option>
+        <option>Legal Notice</option>
+        <option>Other</option>
+      </select>
+
+      <label>Preferred Date</label>
+      <input type="date" id="bookingDate">
+
+      <label>Preferred Time</label>
+      <input type="time" id="bookingTime">
+
+      <label>Brief Description</label>
+      <textarea id="caseDetails" rows="4" placeholder="Briefly describe your matter"></textarea>
+
+      <button onclick="sendBooking()" class="btn">
+        Confirm Booking
+      </button>
+
+    </div>
+
+  </div>
+</section>
 <section id="contact" class="contact">
   <div class="contact-card">
  <h2>Contact Us</h2>
