@@ -622,3 +622,6 @@ transition: all 0.3s ease;
     line-height: 1.2;
   }
 }
+html{
+  scroll-behavior:smooth;
+}
