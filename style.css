@@ -388,3 +388,47 @@ transition: all 0.3s ease;
     box-shadow:0 15px 40px rgba(251,191,36,0.3);
 }
 }
+@media(max-width:768px){
+
+  .section{
+    padding:45px 18px;
+  }
+
+  .grid{
+    gap:18px;
+  }
+
+  .card{
+    padding:22px 18px;
+    min-height:auto;
+  }
+
+  .card h3{
+    font-size:24px;
+    margin-bottom:10px;
+  }
+
+  .card p{
+    font-size:18px;
+    line-height:1.5;
+  }
+
+  .hero{
+    min-height:auto;
+    padding:60px 18px;
+  }
+
+  .hero h2{
+    font-size:42px;
+  }
+
+  .hero p{
+    font-size:20px;
+  }
+
+  .floating-whatsapp{
+    width:65px;
+    height:65px;
+    font-size:28px;
+  }
+}
