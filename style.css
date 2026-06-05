@@ -616,3 +616,9 @@ transition: all 0.3s ease;
 .hero .hero-logo{
   display:none;
 }
+@media (max-width: 768px) {
+  .hero h3 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+}
