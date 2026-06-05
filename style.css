@@ -596,3 +596,8 @@ transition: all 0.3s ease;
     display:none !important;
   }
 }
+@media(max-width:768px){
+  .hero-badge{
+    display:none;
+  }
+}
