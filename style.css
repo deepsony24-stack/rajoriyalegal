@@ -559,3 +559,35 @@ transition: all 0.3s ease;
     box-sizing:border-box;
     margin-bottom:12px;
 }
+@media(max-width:768px){
+
+  .hero-logo{
+    width:95px !important;
+    height:95px !important;
+  }
+
+  .hero-badge{
+    font-size:14px !important;
+    padding:8px 14px !important;
+  }
+
+  .hero h2{
+    font-size:32px !important;
+    line-height:1.1 !important;
+  }
+
+  .hero h3{
+    font-size:22px !important;
+    line-height:1.25 !important;
+  }
+
+  .hero p{
+    font-size:17px !important;
+    line-height:1.5 !important;
+  }
+
+  .trust-badges p{
+    font-size:16px !important;
+    margin:5px 0 !important;
+  }
+}
