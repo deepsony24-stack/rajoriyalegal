@@ -432,3 +432,32 @@ transition: all 0.3s ease;
     font-size:28px;
   }
 }
+@media(max-width:768px){
+
+  .hero{
+    padding:35px 18px 45px !important;
+  }
+
+  .hero-logo{
+    width:120px !important;
+  }
+
+  .hero h2{
+    font-size:38px !important;
+    line-height:1.1;
+  }
+
+  .hero h3{
+    font-size:24px !important;
+  }
+
+  .hero p{
+    font-size:18px !important;
+  }
+
+  .floating-whatsapp{
+    width:58px !important;
+    height:58px !important;
+    bottom:80px !important;
+  }
+}
