@@ -530,3 +530,32 @@ transition: all 0.3s ease;
 .booking-form .btn:hover{
     background:#f0a500;
 }
+.booking-section .container{
+    max-width:800px;
+    margin:0 auto;
+}
+
+.booking-form{
+    display:block;
+    max-width:700px;
+    margin:30px auto;
+    background:#0d1b33;
+    padding:30px;
+    border-radius:20px;
+    border:1px solid rgba(255,193,7,.3);
+}
+
+.booking-form label{
+    display:block;
+    text-align:left;
+    margin-top:15px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    margin-bottom:12px;
+}
