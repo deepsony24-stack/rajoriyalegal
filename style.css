@@ -279,7 +279,7 @@ display:none;
 }
 
 .hero h2{
-font-size:38px;
+font-size:32px;
 }
 
 .hero h3{
@@ -295,8 +295,8 @@ grid-template-columns:1fr;
 }
 }
 .hero-logo{
-width:140px;
-height:140px;
+width:100px;
+height:100px;
 border-radius:50%;
 object-fit:cover;
 display:block;
