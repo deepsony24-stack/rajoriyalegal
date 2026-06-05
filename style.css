@@ -601,3 +601,15 @@ transition: all 0.3s ease;
     display:none;
   }
 }
+.trust-badges p{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:12px 0;
+}
+
+.trust-badges{
+    max-width:320px;
+    margin:20px auto;
+    text-align:left;
+}
