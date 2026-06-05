@@ -1,153 +1,108 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adv. Brajesh Rajoriya | Legal Consultation Across India</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-body{
-font-family:Arial, sans-serif;
-background:#050b16;
-color:#ffffff;
-line-height:1.6;
-}
+<body>
 
-header{
-text-align:center;
-padding:35px 15px;
-background:#071426;
-border-bottom:2px solid #d4af37;
-}
+<header class="navbar">
+  <div class="brand">
+    <span class="logo">⚖️</span>
+    <div>
+      <h1>Adv. Brajesh Rajoriya</h1>
+      <p>Legal Consultation Across India</p>
+    </div>
+  </div>
 
-header h1{
-font-size:36px;
-color:#d4af37;
-}
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-header p{
-font-size:18px;
-color:#ffffff;
-}
+<section id="home" class="hero">
+  <div class="hero-content">
+    <span class="badge">Professional Legal Guidance</span>
+    <h2>Trusted Legal Consultation Across India</h2>
+    <p>
+      Civil, Criminal, Family, Property, Consumer, Legal Notice,
+      Agreement Drafting & Documentation Matters.
+    </p>
 
-.hero{
-text-align:center;
-padding:70px 20px;
-background:linear-gradient(135deg,#071426,#0d1f3a);
-}
+    <div class="hero-buttons">
+      <a class="btn primary" href="https://wa.me/917354330031?text=Namaskar%20Mujhe%20Legal%20Consultation%20chahiye">WhatsApp Now</a>
+      <a class="btn secondary" href="tel:+917354330031">Call Now</a>
+    </div>
+  </div>
+</section>
 
-.hero h2{
-font-size:34px;
-color:#d4af37;
-margin-bottom:15px;
-}
+<section class="trust">
+  <div><h3>Online</h3><p>Legal Consultation</p></div>
+  <div><h3>Document</h3><p>Review & Guidance</p></div>
+  <div><h3>Across India</h3><p>Remote Support</p></div>
+</section>
 
-.hero p{
-font-size:19px;
-max-width:850px;
-margin:0 auto 25px;
-}
+<section id="services" class="section">
+  <h2>Our Legal Services</h2>
+  <p class="section-subtitle">Professional legal support for different types of matters.</p>
 
-.btn{
-display:inline-block;
-background:#d4af37;
-color:#071426;
-padding:13px 26px;
-border-radius:30px;
-text-decoration:none;
-font-weight:bold;
-margin-top:10px;
-}
+  <div class="service-grid">
+    <div class="card"><h3>⚖️ Legal Consultation</h3><p>Case facts aur documents ke आधार पर legal guidance.</p></div>
+    <div class="card"><h3>📄 Legal Notice Drafting</h3><p>Legal notice, reply aur representation drafting.</p></div>
+    <div class="card"><h3>🏠 Property Disputes</h3><p>Land, registry, possession, partition aur property matters.</p></div>
+    <div class="card"><h3>👨‍👩‍👧 Family Matters</h3><p>Divorce, maintenance, domestic dispute aur family issues.</p></div>
+    <div class="card"><h3>🛒 Consumer Complaints</h3><p>Consumer forum, service deficiency aur refund matters.</p></div>
+    <div class="card"><h3>🏛️ Civil Matters</h3><p>Civil dispute, decree, order aur documentation guidance.</p></div>
+    <div class="card"><h3>🚔 Criminal Matters</h3><p>FIR, bail, complaint aur criminal case consultation.</p></div>
+    <div class="card"><h3>📝 Agreement Drafting</h3><p>Agreement, affidavit aur legal documentation support.</p></div>
+    <div class="card"><h3>⚖️ Supreme Court Related Matters</h3><p>Supreme Court related consultation and documentation guidance.</p></div>
+  </div>
+</section>
 
-section{
-max-width:1100px;
-margin:auto;
-padding:45px 20px;
-}
+<section class="about">
+  <div class="about-box">
+    <h2>About Advocate</h2>
+    <p>
+      Adv. Brajesh Rajoriya provides professional legal consultation,
+      document review, case analysis and legal guidance across India.
+      Clients may share their matter details, notice, order, agreement
+      or related documents for preliminary legal review.
+    </p>
+  </div>
+</section>
 
-section h2{
-text-align:center;
-font-size:32px;
-color:#d4af37;
-margin-bottom:30px;
-}
+<section id="process" class="section">
+  <h2>How Consultation Works</h2>
 
-.card{
-background:#0b1b31;
-border:1px solid rgba(212,175,55,0.35);
-border-left:5px solid #d4af37;
-border-radius:14px;
-padding:22px;
-margin-bottom:18px;
-box-shadow:0 8px 20px rgba(0,0,0,0.25);
-}
+  <div class="process-grid">
+    <div class="step"><span>01</span><h3>Case Details Share करें</h3><p>WhatsApp पर अपनी समस्या का short description भेजें.</p></div>
+    <div class="step"><span>02</span><h3>Documents भेजें</h3><p>Notice, order, agreement या related documents भेजें.</p></div>
+    <div class="step"><span>03</span><h3>Review & Consultation</h3><p>Documents review के बाद उचित legal guidance दी जाएगी.</p></div>
+    <div class="step"><span>04</span><h3>Legal Strategy</h3><p>मामले के अनुसार आगे की legal strategy समझाई जाएगी.</p></div>
+  </div>
+</section>
 
-.card h3{
-color:#d4af37;
-margin-bottom:8px;
-font-size:22px;
-}
+<section id="contact" class="contact">
+  <h2>Contact for Legal Consultation</h2>
+  <p><strong>Adv. Brajesh Rajoriya</strong></p>
+  <p>⚖️ Legal Consultation Across India</p>
+  <p>📞 Call / WhatsApp: <a href="tel:+917354330031">73543 30031</a></p>
+  <p>📧 Email: <a href="mailto:brajeshrajoriya9@gmail.com">brajeshrajoriya9@gmail.com</a></p>
+  <a class="btn primary" href="https://wa.me/917354330031?text=Namaskar%20Mujhe%20Legal%20Consultation%20chahiye">Book Consultation</a>
+</section>
 
-.card p{
-color:#e8e8e8;
-font-size:16px;
-}
+<footer>
+  <p><strong>Disclaimer:</strong> This website is for general information only. Legal advice will be provided after proper consultation and review of documents.</p>
+  <p>© 2026 Adv. Brajesh Rajoriya. All Rights Reserved.</p>
+</footer>
 
-.contact{
-text-align:center;
-background:#071426;
-border-top:1px solid rgba(212,175,55,0.3);
-border-bottom:1px solid rgba(212,175,55,0.3);
-}
+<a class="whatsapp-float" href="https://wa.me/917354330031?text=Namaskar%20Mujhe%20Legal%20Consultation%20chahiye">WhatsApp</a>
 
-.contact p{
-font-size:18px;
-margin-bottom:8px;
-}
-
-footer{
-background:#030812;
-text-align:center;
-padding:25px 15px;
-font-size:14px;
-color:#dcdcdc;
-border-top:2px solid #d4af37;
-}
-
-footer p{
-max-width:900px;
-margin:8px auto;
-}
-
-@media(max-width:600px){
-header h1{
-font-size:29px;
-}
-
-.hero h2{
-font-size:28px;
-}
-
-.hero p{
-font-size:17px;
-}
-
-section h2{
-font-size:27px;
-}
-
-.card h3{
-font-size:20px;
-}
-}
-.whatsapp-float{
-position:fixed;
-right:20px;
-bottom:20px;
-background:#25D366;
-color:white;
-padding:14px 20px;
-border-radius:50px;
-text-decoration:none;
-font-weight:bold;
-box-shadow:0 6px 18px rgba(0,0,0,0.35);
-z-index:999;
-}
+</body>
+</html>
