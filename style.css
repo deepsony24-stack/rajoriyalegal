@@ -97,6 +97,11 @@ text-decoration:none;
 font-weight:700;
 margin:10px;
 }
+.section .btn{
+    display:block;
+    width:fit-content;
+    margin:20px auto;
+}
 
 .gold{
 background:#fbbf24;
