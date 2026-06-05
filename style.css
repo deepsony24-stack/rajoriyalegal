@@ -613,3 +613,6 @@ transition: all 0.3s ease;
     margin:20px auto;
     text-align:left;
 }
+.hero .hero-logo{
+  display:none;
+}
