@@ -647,3 +647,11 @@ html{
     color:#d4a017;
     font-weight:600;
 }
+.founder-card{
+    border:2px solid #d4a017 !important;
+    box-shadow:0 0 15px rgba(212,160,23,0.4);
+}
+
+.founder-card h3{
+    color:#d4a017;
+}
