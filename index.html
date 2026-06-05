@@ -271,6 +271,42 @@ Gwalior, Madhya Pradesh
 </footer>
 
 <a class="whatsapp" href="https://wa.me/917354330031?text=Namaskar%20Mujhe%20Legal%20Consultation%20chahiye">☎</a>
+<script>
+function sendBooking(){
 
+let type = document.getElementById("consultationType").value;
+let name = document.getElementById("clientName").value;
+let phone = document.getElementById("clientPhone").value;
+let caseType = document.getElementById("caseType").value;
+let date = document.getElementById("bookingDate").value;
+let time = document.getElementById("bookingTime").value;
+let details = document.getElementById("caseDetails").value;
+
+let message =
+`Namaskar Adv. Brajesh Rajoriya Ji,
+
+Consultation Booking Request
+
+Consultation Type: ${type}
+
+Name: ${name}
+
+Mobile: ${phone}
+
+Case Type: ${caseType}
+
+Preferred Date: ${date}
+
+Preferred Time: ${time}
+
+Case Details: ${details}`;
+
+let whatsappURL =
+"https://wa.me/917354330031?text=" +
+encodeURIComponent(message);
+
+window.open(whatsappURL, "_blank");
+}
+</script>
 </body>
 </html>
